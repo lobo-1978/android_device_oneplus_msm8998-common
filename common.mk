@@ -120,6 +120,9 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor
+    
+# QCOM hardware
+BOARD_USES_QCOM_HARDWARE := true    
 
 # Camera
 PRODUCT_PACKAGES += \
