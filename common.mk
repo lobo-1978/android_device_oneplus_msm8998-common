@@ -122,8 +122,12 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@2.0.vendor
     
 # QCOM hardware
-BOARD_USES_QCOM_HARDWARE := true    
+BOARD_USES_QCOM_HARDWARE := true 
 
+TARGET_COMMON_QTI_COMPONENTS += \
+    gps-legacy \
+    telephony 
+   
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.4:64 \
